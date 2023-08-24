@@ -6,12 +6,11 @@
 //
 
 import SwiftUI
-
 struct ContentView: View {
     
     //변수는 크게 let, var가 존재. let = String
     //
-    let name : String = "Start Swift"
+    let name : String = "Start Swift Study"
     let number : Int = 20+5
     
     var body: some View {
