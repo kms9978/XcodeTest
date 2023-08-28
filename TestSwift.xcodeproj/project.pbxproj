@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D0B5E0B2A9C98F10081AF39 /* MyClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0B5E0A2A9C98F10081AF39 /* MyClosure.swift */; };
 		3D40CCD12A9775BE006829E5 /* Variable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D40CCD02A9775BE006829E5 /* Variable.swift */; };
 		3D40CCD32A9778BC006829E5 /* Variable2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D40CCD22A9778BC006829E5 /* Variable2.swift */; };
+		3D4EDC762A9C963F009B737A /* MyOptional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4EDC752A9C963F009B737A /* MyOptional.swift */; };
 		3D5D98762A99F525008523C3 /* Condition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5D98752A99F525008523C3 /* Condition.swift */; };
 		3D5D987B2A99F6A4008523C3 /* Loop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5D987A2A99F6A4008523C3 /* Loop.swift */; };
 		3D5D987E2A9A002C008523C3 /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5D987D2A9A002C008523C3 /* Function.swift */; };
@@ -40,8 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D0B5E0A2A9C98F10081AF39 /* MyClosure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyClosure.swift; sourceTree = "<group>"; };
 		3D40CCD02A9775BE006829E5 /* Variable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variable.swift; sourceTree = "<group>"; };
 		3D40CCD22A9778BC006829E5 /* Variable2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variable2.swift; sourceTree = "<group>"; };
+		3D4EDC752A9C963F009B737A /* MyOptional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOptional.swift; sourceTree = "<group>"; };
 		3D5D98752A99F525008523C3 /* Condition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Condition.swift; sourceTree = "<group>"; };
 		3D5D987A2A99F6A4008523C3 /* Loop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loop.swift; sourceTree = "<group>"; };
 		3D5D987D2A9A002C008523C3 /* Function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
@@ -83,6 +87,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D0B5E092A9C98E10081AF39 /* Closure */ = {
+			isa = PBXGroup;
+			children = (
+				3D0B5E0A2A9C98F10081AF39 /* MyClosure.swift */,
+			);
+			path = Closure;
+			sourceTree = "<group>";
+		};
+		3D4EDC742A9C93A0009B737A /* Optional */ = {
+			isa = PBXGroup;
+			children = (
+				3D4EDC752A9C963F009B737A /* MyOptional.swift */,
+			);
+			path = Optional;
+			sourceTree = "<group>";
+		};
 		3D5D98772A99F584008523C3 /* if */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +168,8 @@
 		3D947F3B2A965F7D00BD47FB /* TestSwift */ = {
 			isa = PBXGroup;
 			children = (
+				3D0B5E092A9C98E10081AF39 /* Closure */,
+				3D4EDC742A9C93A0009B737A /* Optional */,
 				3D5D987F2A9A038E008523C3 /* Enum */,
 				3D5D987C2A9A0017008523C3 /* Function */,
 				3D5D98792A99F694008523C3 /* Loop */,
@@ -318,10 +340,12 @@
 				3D947F3F2A965F7D00BD47FB /* ContentView.swift in Sources */,
 				3D40CCD12A9775BE006829E5 /* Variable.swift in Sources */,
 				3D5D98812A9A039F008523C3 /* Enum.swift in Sources */,
+				3D0B5E0B2A9C98F10081AF39 /* MyClosure.swift in Sources */,
 				3D5D987E2A9A002C008523C3 /* Function.swift in Sources */,
 				3D40CCD32A9778BC006829E5 /* Variable2.swift in Sources */,
 				3D5D987B2A99F6A4008523C3 /* Loop.swift in Sources */,
 				3D947F3D2A965F7D00BD47FB /* TestSwiftApp.swift in Sources */,
+				3D4EDC762A9C963F009B737A /* MyOptional.swift in Sources */,
 				3D5D98762A99F525008523C3 /* Condition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
